@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
                 child: Image.asset(
                   'image/kakashi.jpg',
                   width: 800,
-                  height: 200,
+                  height: 400,
                 ),
               ),
               Text(

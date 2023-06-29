@@ -17,16 +17,18 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: EdgeInsets.only(bottom: 40.0),
-                child: Image(
-                  image: AssetImage('image/kakashi.jpg'),
+                padding: EdgeInsets.only(bottom: 16.0),
+                child: Image.asset(
+                  'image/kakashi.jpg',
+                  width: 800,
+                  height: 200,
                 ),
               ),
               Text(
                 'Kakashi Hatake',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 53,
+                  fontSize: 30,
                   fontFamily: 'Angeliene',
                 ),
                 textAlign: TextAlign.center,

@@ -13,8 +13,25 @@ class MyApp extends StatelessWidget {
           title: Text('Image Viewer'),
         ),
         body: Center(
-          child: Image(
-            image: AssetImage('image/kakashi.jpg'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: EdgeInsets.only(bottom: 40.0),
+                child: Image(
+                  image: AssetImage('image/kakashi.jpg'),
+                ),
+              ),
+              Text(
+                'Kakashi Hatake',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 53,
+                  fontFamily: 'Angeliene',
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
           ),
         ),
       ),
